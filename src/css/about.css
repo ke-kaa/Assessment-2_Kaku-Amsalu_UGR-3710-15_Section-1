@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+
+/* || header */
+.headerDiv{
+    background: radial-gradient(circle at 40% top, #364236 , #000);
+    color: white;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.headerText {
+    width: 55%;
+    font-family: sans-serif;  
+    text-align: right;
+    margin-bottom: 3rem;
+}
+.headerText h1 {
+    font-size: 3.5rem;
+}
+.orangeText {
+    color: #e0960c;
+}
+.headerNav {
+    width: 55%;
+    padding-bottom: 1rem;
+}
+.headerNav nav {
+    width: 40%;
+    margin: auto;
+}
+.headerNav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.headerNav a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #74B40E;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+.headerNav a:visited {
+    color: white;
+}
+.headerNav a:hover {
+    background-color: #e0960c;
+}
+.headerNav li a.active {
+    background-color: #e0960c;
+}
+
+/* || main */
+
+.container{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    column-gap: 3rem;
+}
+.container p {
+    margin-bottom: 1rem;
+}
+.container p:last-child {
+    margin-bottom: 0;
+}
+.container h2 {
+    color: #93C545;
+    padding: 1rem 0 ;
+}
+
+/* || aside */
+
+aside h2 {
+    color: #93C545;
+    padding: 1rem 0 ;
+}
+aside ul {
+    list-style-type: none;
+}
+aside ul li {
+    line-height: 1.5rem;
+}
+aside ul a {
+    text-decoration: none;
+    color: #1b0202;
+}
+.sponsors ul{
+    margin: 0.8rem 0;
+}
+.sponsors li {
+    font-weight: lighter;
+}
+
+/* || footer */
+
+.imageGallery img, .about img {
+    width: 60px;
+    height: 60px;
+}
+footer {
+    background-color: #1a2309;
+    color: white;
+    margin-top: 3rem;
+}
+.footerContents {
+    font-family: sans-serif;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 220px 1fr 1fr;
+    margin: auto;
+    padding: 1rem;
+    column-gap: 2rem;
+}
+.imageContainer {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    row-gap: 0.5rem;
+}
+.about img{
+    float: left;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+}
+.address {
+    display: grid;
+    row-gap: 0.8rem;
+}
+.crCont {
+    background-color: #1b0202;
+    padding: 1rem;
+}
+.copyrightC {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;    
+}
+.copyrightC ul{
+    display: flex;
+    list-style-type: none;
+}
+.copyrightC ul a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.copyrightC ul a:visited {
+    color: #93C545;
+}
